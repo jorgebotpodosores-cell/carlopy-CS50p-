@@ -1,6 +1,5 @@
 # carlopy
-#### Video Demo:  [URL]()
-# Description:
+## Description:
  __The project's objective is to imitate the life cycles of neutrons in a nuclear bomb using efficient libraries such as `numpy` to vectorize each neutron's information improving efficiency and speed.__
 __The desired output is a line of text in the terminal command showing the current state of the _nuclear core_ and, if desired, a graphed representation using simple `matplotlib`.__
 
@@ -12,7 +11,7 @@ __Parameters inputted into the program are the _radius_ in _cm_ of the uranium c
 
 __Although this is a highly scientific project I refrained from using more complex maths and physics like actual densities in _cm³_ and other complex equations to keep the math simple since I am 14 years old and want to focus on the _code_.__
 
-# Custom functions:
+## Custom functions:
 ### List:
 - `main` Provides a place to structure the program flow properly.
 - `initialize_bomb` The engine that initalizes the `numpy` matrix.
@@ -133,7 +132,7 @@ else:
 ```
 Creating either 2 or 3 new rows (randomly) per atom without creating errors. At first I tried implementing this code without the if statement but then the number of fission events returned wasn't accurate, etc.
 
-# Classes:
+## Classes:
 At first I wanted to create a custom class that would house every neutron, but my computer couldn't handle it so I turned to matrixes.
 But I still wanted to use classes so I created a custom class called `Number` that validates the user input for how many neutrons to initialize the bomb with.
 But I couldn't use the same class for the radius and density because of them being `floats` not `ints` so I decided to use simpler validation for them.
