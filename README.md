@@ -1,5 +1,5 @@
 # carlopy
-#### Video Demo:  [URL](https://youtu.be/qDhFyz0NxGw)
+#### Video Demo:  [URL]()
 # Description:
  __The project's objective is to imitate the life cycles of neutrons in a nuclear bomb using efficient libraries such as `numpy` to vectorize each neutron's information improving efficiency and speed.__
 __The desired output is a line of text in the terminal command showing the current state of the _nuclear core_ and, if desired, a graphed representation using simple `matplotlib`.__
